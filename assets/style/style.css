@@ -1,0 +1,119 @@
+body{
+    background-color: #0d121f;
+}
+.nav{
+    color: #fff;
+    display: flex;
+    gap: 40px;
+
+    padding: 40px 140px;
+}
+.display{
+    display: flex;
+}
+   
+
+.logo{
+    padding: 40px 120px;
+   height: 26px;
+   width: 144px;
+}
+.btn{
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-left: 116px;
+}
+.btn2{
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    background-color: #7c5cfc;
+    padding: 14px 24px;
+}
+.color{
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+.title{
+    color: #90a3bf;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 24px;
+}
+.btn3{
+    margin-top: 40px;
+    margin-left: 40%;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    background-color: #7c5cfc;
+    padding: 14px 24px;
+}
+.btn1{
+    
+    margin-top: 40px;
+    padding: 14px 24px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #1a202c;
+ }
+  .margin{
+    margin-left: 120px;
+    margin-top: 80px;
+  }
+  .icon{
+    display: none;
+
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+    .menu-item{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .btn2{
+        display: none;
+    }
+    .icon{
+        display: block;
+        width: 16px;
+        height: 6.98px;
+        padding-top: 40px;
+        margin-left: 90px;
+    }
+    .color{
+    
+        font-size: 36px;
+        width: 317px;
+        height: 162px;
+    }
+    .btn1{
+        background-color: transparent;
+        padding: 14px 125px;
+    }
+    .btn3{
+      
+       width: 300px;
+       margin-left: 0;
+
+    }
+    .margin{
+        width: 319px;
+        height: 192px;
+       
+       margin-left: 50px;
+        top: 604px;
+    }
+}
